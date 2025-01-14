@@ -146,6 +146,12 @@
     margin-bottom: 10px;
 }
 
+.tituloProgresos {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
 /*PÁGINA HISTORIA*/
 
 #mainHistoria {
