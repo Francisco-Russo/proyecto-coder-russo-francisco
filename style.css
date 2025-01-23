@@ -6,9 +6,10 @@
 
 #header {
     background-color: green;
+    background-size: 100%;
     align-items: center;
     height: 120px;
-    column-gap: 30%;
+    max-width: 100%;
 }
 
 .navBar {
@@ -62,16 +63,18 @@
 }
 
 .pInicio {
-    font-size: 32px;
+    font-size: clamp(1em,5vw,2em);
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
 }
 
 .box1 {
     width: 100%;
+    flex-wrap: wrap;
     /*Ya resolvi lo de el background y sus configuraciones para que a la vez no afecte al texto. No se si esa es la forma correcta de hacerlo, o si hay otra manera mas facil. Yo pude encontrar una forma que me funciono, que es la que esta abajo, en .fondoContenedor */
 }
 
@@ -83,7 +86,7 @@
 .fondoContenedor {
     background-image: url(Images/michael\,\ trevor\ y\ franklin.png);
     background-position: center;
-    opacity: 20%;
+    opacity: 5%;
     filter: grayscale(1);
     background-repeat: no-repeat;
     position: relative;
@@ -96,7 +99,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1000px;
-    font-size: 24px;
+    font-size: clamp(0.5em,5vw,1.5em);
 }
 
 /*PÁGINA PERSONAJES*/
@@ -404,4 +407,26 @@
     flex-direction: row;
     margin-top: 20px;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        align-items: flex-start;
+        height: 100%;
+        min-width: 100%;
+    }
+
+    .navBar {
+        flex-direction: row;
+    }
+
+    .logoHeader {
+        
+    }
+
+    .navBar ul {
+        flex-direction: column;
+    }
+
+
 }
