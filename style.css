@@ -84,7 +84,7 @@
 }
 
 .fondoContenedor {
-    background-image: url(Images/michael\,\ trevor\ y\ franklin.png);
+    background-image: url(images/michael-trevor-franklin.png);
     background-position: center;
     opacity: 5%;
     filter: grayscale(1);
@@ -107,7 +107,7 @@
 #mainPersonajes {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(Images/Fondo\ playa.jpg);
+    background-image: url(images/fondo-playa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     flex-wrap: wrap;
