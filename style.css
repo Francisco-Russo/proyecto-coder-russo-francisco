@@ -409,7 +409,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
 
     /*SECCIÓN HEADER*/
 
@@ -421,6 +421,7 @@
     .navBar {
         flex-direction: row;
         align-items: center;
+        margin-left: 2%;
     }
 
     .navBar ul {
@@ -459,6 +460,64 @@
         align-items: center;
     }
 
+    /*PÁGINA HISTORIA*/
+
+    .articuloHistoriaIzq {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20%;
+    }
+
+    .articuloHistoriaDer {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20%;
+    }
+
+    .articuloHistoriaDer p {
+        width: 100%;
+    }
+
+    .imagenHistoria {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .imagenHistoriaDer {
+        width: 100%;
+        margin: 0%;
+    }
+
+    /*PÁGINA LUGARES*/
+
+    .marcoLugar {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imagenRealLugar {
+        width: 100%;
+    }
+
+    .mapaLugar {
+        width: 100%;
+    }
+
+    /*PÁGINA ACTIVIDADES*/
+
+    .marcoActividad {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imagenRealAct {
+        width: 100%;
+    }
+
+    .mapaActividad {
+        width: 100%;
+    }
+
     /*SECCIÓN FOOTER*/
 
     #footer {
@@ -469,6 +528,7 @@
     .navFooter {
         align-items: center;
         flex-direction: column;
+        width: 100%;
     }
 
     .navFooter ul {
@@ -477,11 +537,11 @@
 
     .navFooter ul li {
         margin-right: 10px;
+        justify-content: space-around;
     }
 
     .navFooter a {
         width: 50px;
-        margin-right: 26%;
     }
 
     .footerLogo {
