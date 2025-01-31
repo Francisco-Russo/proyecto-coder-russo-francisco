@@ -1,0 +1,65 @@
+/*SECCIÓN MAIN*/
+
+/*PÁGINA HISTORIA*/
+
+#mainHistoria {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.tituloMainHistoria {
+    display: flex;
+    font-size: 50px;
+    font-family: "Racing Sans One", serif;
+    color: white;
+    -webkit-text-stroke: 1.2px black;
+    padding: 10px;
+    justify-content: center;
+}
+
+.pIntroHistoria {
+    font-size: 24px;
+    text-align: left;
+    padding: 50px;
+}
+
+.articuloHistoriaIzq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(247, 240, 240);
+    border-radius: 45%;
+    margin-bottom: 10px;
+}
+
+.articuloHistoriaDer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    word-wrap: break-word;
+    background-color: rgb(247, 240, 240);
+    border-radius: 45%;
+    margin-bottom: 10px;
+}
+
+.articuloHistoriaDer p {
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.imagenHistoria {
+    margin-right: 20px;
+}
+
+.imagenHistoriaDer {
+    margin-left: 20px;
+}

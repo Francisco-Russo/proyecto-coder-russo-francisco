@@ -1,0 +1,54 @@
+/*SECCIÓN MAIN*/
+
+/*PÁGINA PERSONAJES*/
+
+#mainPersonajes {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../images/fondo-playa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.tituloMainPersonajes {
+    display: flex;
+    font-size: 50px;
+    font-family: "Racing Sans One", serif;
+    color: white;
+    -webkit-text-stroke: 1.2px black;
+    padding: 10px;
+    justify-content: center;
+}
+
+.marcoPersonaje {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(240, 245, 245);
+    border-radius: 2%;
+}
+
+.boxPersonajes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    column-gap: normal;
+}
+
+.pDescripcion {
+    text-align: left;
+    padding: 5px;
+}
+
+.pHabilidades {
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.tituloProgresos {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 10px;
+}

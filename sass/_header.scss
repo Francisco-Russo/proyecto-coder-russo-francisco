@@ -1,0 +1,41 @@
+/*SECCIÓN HEADER*/
+
+#header {
+    background-color: green;
+    background-size: 100%;
+    align-items: center;
+    height: 120px;
+    max-width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navBar ul li {
+    display: flex;
+    margin-right: 50px;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: center;
+    background-color: darkgreen;
+    border-radius: 50px;
+    align-items: center;
+    height: 50px;
+    margin-right: 26%;
+}
+
+.navBar a {
+    padding: 10px;
+    width: 60px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    column-gap: 20px;
+    text-decoration: none;
+}

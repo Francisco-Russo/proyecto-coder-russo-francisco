@@ -1,0 +1,57 @@
+/*SECCIÓN MAIN*/
+
+/*PÁGINA INDEX*/
+
+.tituloMain2 {
+    font-size: 100px;
+    font-family: "Racing Sans one", serif;
+    font-style: normal;
+    color: white;
+    -webkit-text-stroke: 1.2px black;
+}
+
+#mainIndex {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.pInicio {
+    font-size: clamp(1em,5vw,2em);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 100%;
+    flex-wrap: wrap;
+    /*Ya resolvi lo de el background y sus configuraciones para que a la vez no afecte al texto. No se si esa es la forma correcta de hacerlo, o si hay otra manera mas facil. Yo pude encontrar una forma que me funciono, que es la que esta abajo, en .fondoContenedor */
+}
+
+.fondoMTF {
+    opacity: 0%;
+    filter: grayscale(1);
+}
+
+.fondoContenedor {
+    background-image: url(../images/michael-trevor-franklin.png);
+    background-position: center;
+    opacity: 5%;
+    filter: grayscale(1);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.formularioMain {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    font-size: clamp(0.5em,5vw,1.5em);
+}
