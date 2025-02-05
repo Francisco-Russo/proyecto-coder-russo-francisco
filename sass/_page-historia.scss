@@ -63,3 +63,17 @@
 .imagenHistoriaDer {
     margin-left: 20px;
 }
+
+/*ANIMACIONES*/
+
+.imagenHistoria:active {
+    transform: scale(2,2) translate(25%, 0%);
+    transition: all 1s;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.imagenHistoriaDer:active {
+    transform: scale(2,2) translate(-25%, 0%);
+    transition: all 1s;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.5);
+}

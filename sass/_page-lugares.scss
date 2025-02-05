@@ -50,3 +50,11 @@
 .textoLugar {
     margin-bottom: 20px;
 }
+
+/*ANIMACIONES*/
+
+.imagenRealLugar:active {
+    transform: scale(2,2);
+    transition: all 1s;
+    box-shadow: 10px 8px 8px rgba(0, 0, 0, 0.5);
+}

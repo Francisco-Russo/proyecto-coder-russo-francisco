@@ -1,12 +1,12 @@
+@use "header";
+@use "page-index";
+@use "page-personajes";
+@use "page-historia";
+@use "page-lugares";
+@use "page-actividades";
+@use "footer";
+@use "mediaqueries";
+
 * {
     margin: 0%;
 }
-
-@import "header";
-@import "page-index";
-@import "page-personajes";
-@import "page-historia";
-@import "page-lugares";
-@import "page-actividades";
-@import "footer";
-@import "mediaqueries";
